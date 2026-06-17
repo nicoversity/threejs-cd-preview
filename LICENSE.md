@@ -1,9 +1,9 @@
-**three.js - Cylindrical Display Preview** is distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). This gives everyone the freedoms to use this project in any context: commercial or non-commercial, public or private, open or closed source.
+**Three.js - Cylindrical Display Preview** is distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). This gives everyone the freedoms to use this project in any context: commercial or non-commercial, public or private, open or closed source.
 
 ---
 
 The MIT License (MIT)
-Copyright (c) 2024 - Nico Reski
+Copyright (c) 2026 - Nico Reski
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -15,4 +15,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 This project uses a mix of the following projects/frameworks/libraries/sdks/..., so please check out their licenses:
 
-* [three.js](https://github.com/mrdoob/three.js) r170
+* [three.js](https://github.com/mrdoob/three.js) r184

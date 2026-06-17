@@ -2,7 +2,7 @@
     Filename: index.html
     Description: Cylindrical display preview.
 
-    Version: 2024.11    
+    Version: 2026.06    
     Author: Nico Reski
     GitHub: https://github.com/nicoversity
 -->
@@ -20,8 +20,8 @@
         <script type="importmap">
             {
                 "imports": {
-                    "three": "./lib/threejs/three.module.min.js",
-                    "three/addons/": "./lib/threejs/addons/"
+                    "three": "./lib/threejs/build/three.module.min.js",
+                    "three/addons/": "./lib/threejs/examples/jsm/"
 				}
 			}
 		</script>
@@ -31,6 +31,13 @@
     </head>
     
     <body>
+        <div id="video-playback-ui" class="ui-overlay">
+            <p id="video-playback-label">[ Play ]</p>
+        </div>
+        <div id="next-preview-ui" class="ui-overlay">
+            <p>[ &rightarrow; ]</p>
+        </div>
+        
         <canvas id="threejs-canvas"></canvas>
     </body>
 </html>

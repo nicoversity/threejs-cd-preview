@@ -2,11 +2,46 @@
  *  Filename: styles.css
  *  Description: Appearance configuration the cylindrical display preview.
  *
- *  Version: 2024.11
+ *  Version: 2026.06
  *  Author: Nico Reski
  *  GitHub: https://github.com/nicoversity
  */
 
 body {
     margin: 20px;
+}
+
+#video-playback-ui {
+    position: absolute;
+    left: 20px;
+    display: none;
+}
+
+#next-preview-ui {
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+
+.ui-overlay {
+    background-color: #1f1f1f96;
+}
+
+.ui-overlay:hover {
+    background-color: #00000096;
+}
+
+.ui-overlay p {
+    color: #ebebeb;
+    letter-spacing: 0px;
+
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: menlo, 'andale mono', 'helvetica', sans-serif;
+
+    margin: 8px;
+    padding: 0px;
 }
